@@ -1,0 +1,16 @@
+body
+{
+    background-image: url(pubg-player-unknown-battlegrounds-cover-uhd-4k-wallpaper.jpg);
+    background-size: 100%;
+    
+
+}
+h2{
+    border: 5px 5px solid grey ;
+    background-color:cadetblue;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: auto; 
+    font-family: cursive;
+    font-style: oblique;
+}

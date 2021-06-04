@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    //<link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table, th , td {
+    border: 1px dotted tomato;
+    border-collapse: collapse;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ol">this is my fucking game</h1>
+    <a href="https://www.google.com/ " target="_blank">google</a>
+    <img src="1.jpg" alt="Smoker">
+    <table style="width: 100%;">
+        
+        <tr>
+            <th>name</th>
+            <th>salary</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>perumal</td>
+            <td>150000</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>iyappa</td>
+            <td>100000</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>nivas</td>
+            <td>120000</td>
+            <td>66</td>
+        </tr>
+    </table> 
+    <img src="C:\Users\Lakshman\Pictures\Screenshots" alt="puck" width="200px">
+    <script>
+        document.getElementById("ol").innerHTML="oombu";
+    </script>
+
+    <form >
+        <label for="name">Firstname</label>
+        <input type="text" id="name" placeholder="enter the name...."><br>
+        <label for="DOB">Date of birth</label>
+        <input type="date" id="DOB" ><br>
+        <label for="paswrd">password podra punda</label>
+        <input type="password" id="paswrd">
+        <button type="button" onclick="alert('hello world')">click me</button>
+        <label for="country">COuntry</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="america" selected>america</option>
+            <option value="bangok">bangkok</option>
+        </select><br>
+        <label for="comment">Feedback</label><br>
+        <textarea name="comment" id="comment" cols="10" rows="30" placeholder="Enter the comment"></textarea>
+    </form>
+
+</body>
+</html>
